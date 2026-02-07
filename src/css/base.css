@@ -1,4 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
   font-family:
     system-ui,
     -apple-system,
@@ -26,10 +31,6 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
   margin: 0;
 }
 
